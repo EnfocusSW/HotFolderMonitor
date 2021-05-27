@@ -17,9 +17,6 @@ async function timerFired(s: Switch, flowElement: FlowElement) {
     }
   }
 
-  let obj: Record<string, any> = {};
-  obj.a = 1;
-
   //get list of current files
   let folderPath = await (await flowElement.getPropertyStringValue("Folder")).toString();
   let currentFiles;
@@ -44,7 +41,6 @@ async function timerFired(s: Switch, flowElement: FlowElement) {
   let stuckFiles = [];
   for (let i = 0; i < previousFiles.length; i++) {
     for (let j = 0; j < currentFiles.length; j++) {
-      //s.log( 1, "Comparing " + previousFilesList[i] + " with " + currentFilesList[j]);
       if (previousFiles[i] == currentFiles[j]) {
         if (currentFiles[j] != ".DS_Store") {
           stuckFiles.push(currentFiles[j]);
