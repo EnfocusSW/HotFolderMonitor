@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "tmp": "^0.2.1"
+    },
+    "devDependencies": {
+        "@types/node": "12.12.70",
+        "@types/switch-scripting": "https://github.com/enfocus-switch/types-switch-scripting/archive/1.0.1.tar.gz",
+        "@types/tmp": "^0.2.0"
+    },
+    "license": "UNLICENSED",
+    "name": "hotfoldermonitor",
+    "private": true,
+    "version": "0.0.1"
+}

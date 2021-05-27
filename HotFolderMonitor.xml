@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Object>
+    <ElementFields>
+        <Name Editor="hide" Type="string">HotFolderMonitor</Name>
+        <DisplayName Editor="hide" Type="string">Hot Folder Monitor</DisplayName>
+        <Version Editor="hide" Type="number">1</Version>
+        <Keywords Editor="hide" Type="string"/>
+        <Tooltip Editor="hide" Type="string"/>
+        <IncomingConnections Editor="hide">No</IncomingConnections>
+        <OutgoingConnections DetailedInfo="" Editor="hide" RequireAtLeastOne="Yes">One</OutgoingConnections>
+        <ConnectionType Editor="hide">Move</ConnectionType>
+        <FunctionsNodeJSScript Editor="hide"/>
+        <ExecutionMode Editor="hide">Concurrent</ExecutionMode>
+        <NumberOfSlots Editor="hide">Default</NumberOfSlots>
+        <ExecutionGroup Editor="hide"/>
+        <PerformanceTuning Editor="hide">No</PerformanceTuning>
+        <IdleAfterJob Editor="hide">0</IdleAfterJob>
+        <PositionInElementPane Editor="hide">Configurators</PositionInElementPane>
+        <SubcategoryInElementPane Editor="hide">&lt;ValueDescription Type=&quot;stringlist&quot;&gt;&lt;Value&gt;Custom&lt;/Value&gt;&lt;/ValueDescription&gt;</SubcategoryInElementPane>
+        <DispositionInElementPane Editor="hide" Type="number"/>
+        <Description Editor="hide" Type="string"/>
+        <Compatibility Editor="hide" Type="string"/>
+        <SupportInfo Editor="hide" Type="string"/>
+        <AppDiscovery Editor="hide" Type="string"/>
+        <Connections Editor="hide" Type="string"/>
+        <SwitchModule Editor="hide" Type="string"/>
+        <ObsoleteProperties Editor="hide" Type="string"/>
+        <ObsoleteConnectionProperties Editor="hide" Type="string"/>
+        <Folder Default="" DetailedInfo="" Editor="inline;choosefolder" LocalizedTagName="Hot folder to be monitored" Subtype="inline" Tooltip="" Type="string" UserDefined="true" Validation="Standard"></Folder>
+        <Interval Default="300" DetailedInfo="" Editor="inline" LocalizedTagName="Scan interval (secs)" Subtype="inline" Tooltip="" Type="number" UserDefined="true" Validation="Standard">300</Interval>
+    </ElementFields>
+    <ConnectionFields/>
+    <ExtraProperties/>
+</Object>
