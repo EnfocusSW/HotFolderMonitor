@@ -8,6 +8,6 @@ More info on using TypeScript and script folders in the advanced training:
 This app is part of the [Folder Apps](https://www.enfocus.com/en/appstore/product/folder-apps) bundle available on the [Enfocus Appstore](https://www.enfocus.com/en/appstore/overview)
 
 ### Concepts used in this example:
-- timerFired
+- timerFired 
 - getGlobalData
 - use Node.js packages
